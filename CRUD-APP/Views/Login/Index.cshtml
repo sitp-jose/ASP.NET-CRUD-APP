@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+@Styles.Render("/Login-css")
+
+<form class="login">
+    <h2>Welcome, User!</h2>
+    <p>Please log in</p>
+    <input type="text" placeholder="User Name" />
+    <input type="password" placeholder="Password" />
+    <input type="submit" value="Log In" />
+    <div class="links">
+        <a href="#">Forgot password</a>
+        <a asp-controller="Registration" asp-action="Register">Register</a>
+    </div>
+</form>
+
+@Scripts.Render("/Login-js")
