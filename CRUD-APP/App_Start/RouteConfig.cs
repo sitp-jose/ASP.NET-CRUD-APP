@@ -16,7 +16,7 @@ namespace CRUD_APP
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Todo", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
