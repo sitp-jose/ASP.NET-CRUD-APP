@@ -1,3 +1,3 @@
 ﻿$(function () {
-    console.log('asdasdasd')
+    console.log('testing')
 });
